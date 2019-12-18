@@ -226,9 +226,18 @@ section.about-text {
     border: 3px solid;
 }  */
 
+
+
+
+
 /* Blog Styling*/
 .blog-box {
     transform: translateY(20%);
+}
+
+.blog-date{
+    text-align: right;
+    font-size: 1rem;
 }
 
 #blog h1 {
@@ -273,3 +282,47 @@ div.blog-box {
     text-align: center;
 }
 
+/* Contact Styling */
+.social-media i {
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .social-media a {
+    color: #fafafa;
+  }
+  
+  .social-media a:hover {
+    color: orange;
+  }
+
+.social-media li {
+    display: inline;
+    margin: 1rem;
+    flex-direction: column;
+    
+}
+
+.contact-box .social-media{
+    text-align: center; 
+    margin-bottom: 1rem;
+    border: 2px solid yellow ;
+    margin-top: 0px;
+    width: 25%;
+    margin-left: 500px;
+    /*margin-right: 400px; */
+    
+}
+
+ul.socialmedia {
+    text-align: center;
+}
+
+#contact-text h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    transform: translateY(2%);
+}
