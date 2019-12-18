@@ -125,6 +125,7 @@ nav-logo {
     position: relative;
 }
 
+/* Main Text for Home Page*/
 .main-message {
     width: 100%;
     max-width: 50rem;
@@ -142,6 +143,7 @@ nav-logo {
     margin: 1rem 0;
 }
 
+/* Main Text for About Page*/
  .about-title {
     width: 100%;
     height: 80%vh;
@@ -149,7 +151,7 @@ nav-logo {
     color: #fafafa;
     text-transform: uppercase;
     transform: translateY(20%);
-} 
+ }
 
 .about-title h3 {
     font-size: 1.6rem;
@@ -166,12 +168,16 @@ nav-logo {
     margin: 2rem;
 }
 
+.about-text{
+    background-color: transparent;
+}
 
+/* Profile/About me Image*/
 img#profile {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 15%;
-    border: 3px solid;
+    border: 3px solid orange;
     margin-left: 0rem;
     text-align: center;
 } 
@@ -179,7 +185,6 @@ img#profile {
 div#profile-pic {
     text-align: center;
 }
-
 
 /* 
 .about-text {  
@@ -209,3 +214,51 @@ div#profile-pic {
     border-radius: 100%;
     border: 3px solid;
 }  */
+
+/* Blog Styling*/
+.blog-box {
+    transform: translateY(20%);
+}
+
+#blog h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 12rem;
+    color: #fafafa;
+
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #fafafa;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1.6rem;
+}
+
+.blog-box {
+    box-shadow: 10px 100px 100px 10px rgba(255, 255, 0, 0.3);
+    margin-bottom: 2rem;
+    border: 2px solid yellow ;
+    width: 100%
+}
+
+img {
+    padding: 0 1px;
+}
+
+.box  {
+    padding: 0 10px;
+    color: #fafafa;
+}
+
+div.blog-box {
+    text-align: center;
+}
+
