@@ -329,22 +329,6 @@ ul.socialmedia {
 
 /* Media Breaks */
 
-@media only screen and (max-width: 668px){
-    .contact-box .social-media {
-        margin-left: 0px;
-    }
-
-    section.about-text {
-        padding-left: 0px;
-    }
-
-    section.background {
-        text-align: center;
-        padding-left: 0px;
-        
-    } 
-
-}
 
 @media only screen and (max-width: 1024px){
     .contact-box .social-media {
@@ -362,3 +346,25 @@ ul.socialmedia {
     }
 
 }
+
+
+
+
+
+@media only screen and (max-width: 666px){
+    .contact-box .social-media {
+        margin-left: 0px;
+    }
+
+    section.about-text {
+        padding-left: 0px;
+    }
+
+    section.background {
+        text-align: center;
+        padding-left: 0px;
+        
+    } 
+
+}
+
