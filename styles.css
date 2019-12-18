@@ -141,3 +141,26 @@ nav-logo {
     font-size: 4rem;
     margin: 1rem 0;
 }
+
+.about-title {
+    width: 100%;
+    max-width: 50rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    transform: translateY(40%);
+}
+
+.about-title h3 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.about-title h1 {
+    font-size: 4rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.about-title p {
+    margin: 2rem;
+}
