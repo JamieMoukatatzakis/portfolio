@@ -326,3 +326,39 @@ ul.socialmedia {
     margin-top: 100px;
     transform: translateY(2%);
 }
+
+/* Media Breaks */
+
+@media only screen and (max-width: 668px){
+    .contact-box .social-media {
+        margin-left: 0px;
+    }
+
+    section.about-text {
+        padding-left: 0px;
+    }
+
+    section.background {
+        text-align: center;
+        padding-left: 0px;
+        
+    } 
+
+}
+
+@media only screen and (max-width: 1024px){
+    .contact-box .social-media {
+        margin-left: 275px;
+    }
+
+    section.about-text {
+        padding-left: 125px;
+    }
+
+    section.background {
+        text-align: center;
+        padding-left: 125px;
+        
+    }
+
+}
