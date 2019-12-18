@@ -21,7 +21,7 @@ ul {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 img {
@@ -30,9 +30,13 @@ img {
     height: auto;
 }
 
-/* section {
-    padding: 5rem 0;
-} */
+section.background {
+    text-align: center;
+} 
+
+section {
+    transform: translateX(15%);
+}
 
 body {
 background-image: url(imgs/sitebg.jpg);
