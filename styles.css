@@ -32,11 +32,14 @@ img {
 
 section.background {
     text-align: center;
+    padding-left: 400px;
+    
 } 
 
-section {
-    transform: translateX(15%);
-}
+ /* section {
+    padding-left: 400px;
+    text-align: center;
+} */
 
 body {
 background-image: url(imgs/sitebg.jpg);
@@ -188,6 +191,10 @@ img#profile {
 
 div#profile-pic {
     text-align: center;
+}
+
+section.about-text {
+    padding-left: 400px;
 }
 
 /* 
