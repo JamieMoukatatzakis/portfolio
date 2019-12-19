@@ -327,6 +327,15 @@ ul.socialmedia {
     transform: translateY(2%);
 }
 
+
+/* Mario Styling */
+#mario img {
+    margin-top: 120px;
+    text-align: left;
+    width: 100%;
+    margin-left: 400px;
+}
+
 /* Media Breaks */
 
 
